@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script uses Bazelisk to run Bazel commands
+
+# Call Bazelisk with the provided arguments
+DIR=$(dirname "${BASH_SOURCE[0]}")
+exec ${DIR}/bazelisk "$@"
+
