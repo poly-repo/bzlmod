@@ -1,0 +1,9 @@
+module(
+    name = "polymath.tech",
+    version = "0.1.0",
+)
+
+####
+# Go
+include("//build/modules:go.MODULE.bazel")
+##
